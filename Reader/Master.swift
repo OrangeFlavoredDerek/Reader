@@ -9,6 +9,7 @@ import SwiftUI
 
 struct Master: View {
     @StateObject var data: Data = Data()
+    @AppStorage("darkMode") var darkMode: Bool = false
     
     var body: some View {
         NavigationView {
@@ -20,7 +21,11 @@ struct Master: View {
                 }
             }
             .navigationTitle("编辑推荐")
+            .toolbar {
+                Setting(darkMode: $darkMode)
+            }
         }
+        .preferredColorScheme(darkMode ? .dark : .light)
     }
 }
 
