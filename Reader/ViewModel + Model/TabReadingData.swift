@@ -16,7 +16,7 @@ struct Article: Codable, Identifiable {
 }
 
 //MARK: ViewModel
-class Data: ObservableObject {
+class TabReadingData: ObservableObject {
     @Published var articles: [Article] = [Article]()
     
     init() {
