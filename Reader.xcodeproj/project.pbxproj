@@ -39,6 +39,7 @@
 		AD64F296279CF0B90006274D /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD64F294279CF0B90006274D /* MotionManager.swift */; };
 		AD6C1F5D279B9D4E00FE59EA /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C1F5C279B9D4E00FE59EA /* Row.swift */; };
 		AD6C1F5E279B9D4E00FE59EA /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C1F5C279B9D4E00FE59EA /* Row.swift */; };
+		ADCD9ABB27A167D2001C5220 /* ImagePickerView in Frameworks */ = {isa = PBXBuildFile; productRef = ADCD9ABA27A167D2001C5220 /* ImagePickerView */; };
 		ADFC7421279ACF020021AA65 /* TabReadingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFC7420279ACF020021AA65 /* TabReadingData.swift */; };
 		ADFC7422279ACF020021AA65 /* TabReadingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFC7420279ACF020021AA65 /* TabReadingData.swift */; };
 /* End PBXBuildFile section */
@@ -82,6 +83,7 @@
 		AD64F290279BDA1B0006274D /* Vibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibration.swift; sourceTree = "<group>"; };
 		AD64F294279CF0B90006274D /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
 		AD6C1F5C279B9D4E00FE59EA /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
+		ADCD9AB927A167C1001C5220 /* ImagePickerView-master */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "ImagePickerView-master"; path = "../../Downloads/ImagePickerView-master"; sourceTree = "<group>"; };
 		ADFC7420279ACF020021AA65 /* TabReadingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabReadingData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +93,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD47177327A03F3E00AEDE35 /* BetterSafariView in Frameworks */,
+				ADCD9ABB27A167D2001C5220 /* ImagePickerView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				AD47177027A03F2A00AEDE35 /* BetterSafariView-2.4.0 */,
+				ADCD9AB927A167C1001C5220 /* ImagePickerView-master */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -237,6 +241,7 @@
 			name = Reader;
 			packageProductDependencies = (
 				AD47177227A03F3E00AEDE35 /* BetterSafariView */,
+				ADCD9ABA27A167D2001C5220 /* ImagePickerView */,
 			);
 			productName = Reader;
 			productReference = AD0A0AC7279AC482009735D3 /* Reader.app */;
@@ -735,6 +740,10 @@
 		AD47177227A03F3E00AEDE35 /* BetterSafariView */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = BetterSafariView;
+		};
+		ADCD9ABA27A167D2001C5220 /* ImagePickerView */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ImagePickerView;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
