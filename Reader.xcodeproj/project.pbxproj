@@ -39,7 +39,15 @@
 		AD64F296279CF0B90006274D /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD64F294279CF0B90006274D /* MotionManager.swift */; };
 		AD6C1F5D279B9D4E00FE59EA /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C1F5C279B9D4E00FE59EA /* Row.swift */; };
 		AD6C1F5E279B9D4E00FE59EA /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C1F5C279B9D4E00FE59EA /* Row.swift */; };
+		ADBFFDFD27A3A20E0013E52F /* Reader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBFFDFC27A3A20E0013E52F /* Reader.swift */; };
+		ADBFFDFE27A3A20E0013E52F /* Reader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBFFDFC27A3A20E0013E52F /* Reader.swift */; };
+		ADBFFDFF27A3A2D10013E52F /* ReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0A0ACA279AC482009735D3 /* ReaderApp.swift */; };
+		ADBFFE0027A3A2D10013E52F /* ReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0A0ACA279AC482009735D3 /* ReaderApp.swift */; };
 		ADCD9ABB27A167D2001C5220 /* ImagePickerView in Frameworks */ = {isa = PBXBuildFile; productRef = ADCD9ABA27A167D2001C5220 /* ImagePickerView */; };
+		ADED37DC27AB71DE00F8BB94 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADED37DB27AB71DE00F8BB94 /* LocationManager.swift */; };
+		ADED37DD27AB71DE00F8BB94 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADED37DB27AB71DE00F8BB94 /* LocationManager.swift */; };
+		ADED37DF27AB774600F8BB94 /* CheckIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADED37DE27AB774600F8BB94 /* CheckIn.swift */; };
+		ADED37E027AB774600F8BB94 /* CheckIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADED37DE27AB774600F8BB94 /* CheckIn.swift */; };
 		ADFC7421279ACF020021AA65 /* TabReadingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFC7420279ACF020021AA65 /* TabReadingData.swift */; };
 		ADFC7422279ACF020021AA65 /* TabReadingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFC7420279ACF020021AA65 /* TabReadingData.swift */; };
 /* End PBXBuildFile section */
@@ -83,7 +91,10 @@
 		AD64F290279BDA1B0006274D /* Vibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibration.swift; sourceTree = "<group>"; };
 		AD64F294279CF0B90006274D /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
 		AD6C1F5C279B9D4E00FE59EA /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
+		ADBFFDFC27A3A20E0013E52F /* Reader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reader.swift; sourceTree = "<group>"; };
 		ADCD9AB927A167C1001C5220 /* ImagePickerView-master */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "ImagePickerView-master"; path = "../../Downloads/ImagePickerView-master"; sourceTree = "<group>"; };
+		ADED37DB27AB71DE00F8BB94 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		ADED37DE27AB774600F8BB94 /* CheckIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIn.swift; sourceTree = "<group>"; };
 		ADFC7420279ACF020021AA65 /* TabReadingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabReadingData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,6 +150,7 @@
 		AD0A0AC9279AC482009735D3 /* Reader */ = {
 			isa = PBXGroup;
 			children = (
+				AD0A0ACA279AC482009735D3 /* ReaderApp.swift */,
 				AD471766279FE49700AEDE35 /* Views */,
 				AD471768279FE4E800AEDE35 /* Helper */,
 				AD471767279FE4CC00AEDE35 /* ViewModel + Model */,
@@ -176,8 +188,9 @@
 		AD471766279FE49700AEDE35 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				AD0A0ACA279AC482009735D3 /* ReaderApp.swift */,
+				ADBFFDFC27A3A20E0013E52F /* Reader.swift */,
 				AD471764279E7E0F00AEDE35 /* Locked.swift */,
+				ADED37DE27AB774600F8BB94 /* CheckIn.swift */,
 				AD0A0ACC279AC482009735D3 /* Master.swift */,
 				AD64F28C279BD8EF0006274D /* Setting.swift */,
 				AD64F286279BA6F30006274D /* Detail.swift */,
@@ -195,6 +208,7 @@
 				ADFC7420279ACF020021AA65 /* TabReadingData.swift */,
 				AD47177427A0457600AEDE35 /* TabNoteData.swift */,
 				AD64F294279CF0B90006274D /* MotionManager.swift */,
+				ADED37DB27AB71DE00F8BB94 /* LocationManager.swift */,
 			);
 			path = "ViewModel + Model";
 			sourceTree = "<group>";
@@ -359,7 +373,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADBFFDFD27A3A20E0013E52F /* Reader.swift in Sources */,
 				AD64F291279BDA1B0006274D /* Vibration.swift in Sources */,
+				ADED37DC27AB71DE00F8BB94 /* LocationManager.swift in Sources */,
 				ADFC7421279ACF020021AA65 /* TabReadingData.swift in Sources */,
 				AD471765279E7E0F00AEDE35 /* Locked.swift in Sources */,
 				AD64F287279BA6F30006274D /* Detail.swift in Sources */,
@@ -370,6 +386,7 @@
 				AD47176A279FE53500AEDE35 /* ReadingNote.swift in Sources */,
 				AD6C1F5D279B9D4E00FE59EA /* Row.swift in Sources */,
 				AD0A0ACB279AC482009735D3 /* ReaderApp.swift in Sources */,
+				ADED37DF27AB774600F8BB94 /* CheckIn.swift in Sources */,
 				AD47177827A04A3300AEDE35 /* NoteEntryAndList.swift in Sources */,
 				AD64F295279CF0B90006274D /* MotionManager.swift in Sources */,
 			);
@@ -385,7 +402,9 @@
 				AD64F292279BDA1B0006274D /* Vibration.swift in Sources */,
 				AD47177627A0457600AEDE35 /* TabNoteData.swift in Sources */,
 				AD64F28E279BD8EF0006274D /* Setting.swift in Sources */,
+				ADBFFE0027A3A2D10013E52F /* ReaderApp.swift in Sources */,
 				AD64F288279BA6F30006274D /* Detail.swift in Sources */,
+				ADED37DD27AB71DE00F8BB94 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,10 +413,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD47176E279FE81500AEDE35 /* RoundButton.swift in Sources */,
+				ADED37E027AB774600F8BB94 /* CheckIn.swift in Sources */,
 				AD64F293279BDA1B0006274D /* Vibration.swift in Sources */,
+				ADBFFDFE27A3A20E0013E52F /* Reader.swift in Sources */,
 				AD6C1F5E279B9D4E00FE59EA /* Row.swift in Sources */,
 				AD47176B279FE53500AEDE35 /* ReadingNote.swift in Sources */,
 				AD64F289279BA6F30006274D /* Detail.swift in Sources */,
+				ADBFFDFF27A3A2D10013E52F /* ReaderApp.swift in Sources */,
 				AD64F28F279BD8EF0006274D /* Setting.swift in Sources */,
 				AD0A0AEB279AC484009735D3 /* ReaderUITests.swift in Sources */,
 				AD47177927A04A3300AEDE35 /* NoteEntryAndList.swift in Sources */,
@@ -549,6 +571,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "解锁App";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "新建笔记时，存储笔记时的位置信息";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -580,6 +603,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "解锁App";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "新建笔记时，存储笔记时的位置信息";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
